@@ -1,0 +1,10 @@
+<mat-card class="character-card" appearance="outlined">
+    <mat-card-header>
+        <mat-card-title-group>
+            <mat-card-title>{{this.cardTitle}}</mat-card-title>
+            <mat-card-subtitle>{{this.currentCharacter.name}}</mat-card-subtitle>
+            <img mat-card-sm-image border="1" src="{{this.currentCharacter.imageFile}}">
+        </mat-card-title-group>
+    </mat-card-header>
+    <button mat-button [disabled]="this.locked" (click)="this.lockCharacter()">Lock</button>
+</mat-card>
