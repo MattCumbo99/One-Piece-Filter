@@ -1,0 +1,814 @@
+[
+	{
+		"name": "Ace",
+		"imageFile": "ace.webp",
+		"physicalTraits": {
+			"durability": 6,
+			"race": 3,
+			"strength": 6
+		},
+		"skillSet": {
+			"captain": 5,
+			"combat": 7,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 3,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 3,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 3
+		},
+		"haki": {
+			"armament": 6,
+			"observation": 6,
+			"conqueror": 5
+		},
+		"devilFruit": {
+			"mastery": 7,
+			"power": 8
+		}
+	},
+	{
+		"name": "Akainu / Sakazuki",
+		"imageFile": "sakazuki.webp",
+		"physicalTraits": {
+			"durability": 8,
+			"race": 3,
+			"strength": 8
+		},
+		"skillSet": {
+			"captain": 7,
+			"combat": 8,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 3,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 3,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 3
+		},
+		"haki": {
+			"armament": 7,
+			"observation": 6
+		},
+		"devilFruit": {
+			"mastery": 7,
+			"power": 8
+		}
+	},
+	{
+		"name": "Big Mom",
+		"imageFile": "bigmom.webp",
+		"physicalTraits": {
+			"durability": 9,
+			"race": 6,
+			"strength": 8
+		},
+		"skillSet": {
+			"captain": 7,
+			"combat": 8,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 4,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 4,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 6
+		},
+		"haki": {
+			"armament": 7,
+			"observation": 7,
+			"conqueror": 7
+		},
+		"devilFruit": {
+			"mastery": 7,
+			"power": 7
+		}
+	},
+	{
+		"name": "Blackbeard / Marshall D. Teach",
+		"imageFile": "blackbeard.webp",
+		"physicalTraits": {
+			"durability": 6,
+			"race": 7,
+			"strength": 7
+		},
+		"skillSet": {
+			"captain": 8,
+			"combat": 8,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 8,
+			"music": 3,
+			"navigation": 5,
+			"sensei": 3,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 3
+		},
+		"haki": {
+			"armament": 6,
+			"observation": 6
+		},
+		"devilFruit": {
+			"mastery": 7,
+			"power": 9
+		}
+	},
+	{
+		"name": "Brook",
+		"imageFile": "brook.webp",
+		"physicalTraits": {
+			"durability": 5,
+			"race": 7,
+			"strength": 5
+		},
+		"skillSet": {
+			"captain": 4,
+			"combat": 6,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 4,
+			"music": 9,
+			"navigation": 3,
+			"sensei": 3,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 6
+		},
+		"devilFruit": {
+			"mastery": 3,
+			"power": 4
+		}
+	},
+	{
+		"name": "Chopper",
+		"imageFile": "chopper.webp",
+		"physicalTraits": {
+			"durability": 3,
+			"race": 2,
+			"strength": 2
+		},
+		"skillSet": {
+			"captain": 3,
+			"combat": 4,
+			"cooking": 3,
+			"medicine": 9,
+			"mind": 6,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 5,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 1
+		},
+		"devilFruit": {
+			"mastery": 3,
+			"power": 3
+		}
+	},
+	{
+		"name": "Doflamingo",
+		"imageFile": "doflamingo.webp",
+		"physicalTraits": {
+			"durability": 6,
+			"race": 3,
+			"strength": 6
+		},
+		"skillSet": {
+			"captain": 5,
+			"combat": 6,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 7,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 3,
+			"ships": 3,
+			"sniping": 4,
+			"swords": 3
+		},
+		"haki": {
+			"armament": 6,
+			"observation": 6,
+			"conqueror": 6
+		},
+		"devilFruit": {
+			"mastery": 9,
+			"power": 7
+		}
+	},
+	{
+		"name": "Eustass D. Kid",
+		"imageFile": "eustasskid.webp",
+		"physicalTraits": {
+			"durability": 6,
+			"race": 3,
+			"strength": 6
+		},
+		"skillSet": {
+			"captain": 5,
+			"combat": 6,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 2,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 3,
+			"ships": 6,
+			"sniping": 3,
+			"swords": 4
+		},
+		"haki": {
+			"armament": 6,
+			"observation": 5,
+			"conqueror": 3
+		},
+		"devilFruit": {
+			"mastery": 8,
+			"power": 6
+		}
+	},
+	{
+		"name": "Franky",
+		"imageFile": "franky.webp",
+		"physicalTraits": {
+			"durability": 5,
+			"race": 3,
+			"strength": 5
+		},
+		"skillSet": {
+			"captain": 3,
+			"combat": 6,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 7,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 5,
+			"ships": 9,
+			"sniping": 5,
+			"swords": 3
+		}
+	},
+	{
+		"name": "Garp",
+		"imageFile": "garp.webp",
+		"physicalTraits": {
+			"durability": 7,
+			"race": 3,
+			"strength": 9
+		},
+		"skillSet": {
+			"captain": 7,
+			"combat": 9,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 3,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 8,
+			"ships": 3,
+			"sniping": 7,
+			"swords": 3
+		},
+		"haki": {
+			"armament": 9,
+			"observation": 8,
+			"conqueror": 8
+		}
+	},
+	{
+		"name": "Gol D. Roger",
+		"imageFile": "roger.webp",
+		"physicalTraits": {
+			"durability": 8,
+			"race": 3,
+			"strength": 9
+		},
+		"skillSet": {
+			"captain": 9,
+			"combat": 9,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 5,
+			"music": 3,
+			"navigation": 6,
+			"sensei": 7,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 7
+		},
+		"haki": {
+			"armament": 9,
+			"observation": 9,
+			"conqueror": 9
+		}
+	},
+	{
+		"name": "Jinbe",
+		"imageFile": "jinbe.webp",
+		"physicalTraits": {
+			"durability": 6,
+			"race": 6,
+			"strength": 6
+		},
+		"skillSet": {
+			"captain": 5,
+			"combat": 6,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 6,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 5,
+			"ships": 6,
+			"sniping": 3,
+			"swords": 3
+		},
+		"haki": {
+			"armament": 5,
+			"observation": 6
+		}
+	},
+	{
+		"name": "Kaido",
+		"imageFile": "kaido.webp",
+		"physicalTraits": {
+			"durability": 9,
+			"race": 6,
+			"strength": 9
+		},
+		"skillSet": {
+			"captain": 7,
+			"combat": 9,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 4,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 3,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 5
+		},
+		"haki": {
+			"armament": 8,
+			"observation": 8,
+			"conqueror": 7
+		},
+		"devilFruit": {
+			"mastery": 9,
+			"power": 8
+		}
+	},
+	{
+		"name": "Katakuri",
+		"imageFile": "katakuri.webp",
+		"physicalTraits": {
+			"durability": 7,
+			"race": 5,
+			"strength": 7
+		},
+		"skillSet": {
+			"captain": 6,
+			"combat": 7,
+			"cooking": 5,
+			"medicine": 3,
+			"mind": 5,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 5,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 5
+		},
+		"haki": {
+			"armament": 7,
+			"observation": 8,
+			"conqueror": 7
+		},
+		"devilFruit": {
+			"mastery": 9,
+			"power": 7
+		}
+	},
+	{
+		"name": "King",
+		"imageFile": "king.webp",
+		"physicalTraits": {
+			"durability": 9,
+			"race": 9,
+			"strength": 7
+		},
+		"skillSet": {
+			"captain": 4,
+			"combat": 7,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 3,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 3,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 7
+		},
+		"haki": {
+			"armament": 7,
+			"observation": 6
+		},
+		"devilFruit": {
+			"mastery": 7,
+			"power": 6
+		}
+	},
+	{
+		"name": "Kizaru / Borsalino",
+		"imageFile": "kizaru.webp",
+		"physicalTraits": {
+			"durability": 7,
+			"race": 3,
+			"strength": 7
+		},
+		"skillSet": {
+			"captain": 5,
+			"combat": 7,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 4,
+			"music": 3,
+			"navigation": 4,
+			"sensei": 3,
+			"ships": 3,
+			"sniping": 7,
+			"swords": 3
+		},
+		"haki": {
+			"armament": 6,
+			"observation": 6
+		},
+		"devilFruit": {
+			"mastery": 7,
+			"power": 9
+		}
+	},
+	{
+		"name": "Kozuki Oden",
+		"imageFile": "oden.webp",
+		"physicalTraits": {
+			"durability": 7,
+			"race": 3,
+			"strength": 8
+		},
+		"skillSet": {
+			"captain": 6,
+			"combat": 8,
+			"cooking": 6,
+			"medicine": 3,
+			"mind": 3,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 7,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 8
+		},
+		"haki": {
+			"armament": 8,
+			"observation": 7,
+			"conqueror": 7
+		}
+	},
+	{
+		"name": "Kuzan / Aokiji",
+		"imageFile": "kuzan.webp",
+		"physicalTraits": {
+			"durability": 7,
+			"race": 3,
+			"strength": 7
+		},
+		"skillSet": {
+			"captain": 5,
+			"combat": 7,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 3,
+			"music": 3,
+			"navigation": 5,
+			"sensei": 3,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 3
+		},
+		"haki": {
+			"armament": 7,
+			"observation": 7
+		},
+		"devilFruit": {
+			"mastery": 7,
+			"power": 8
+		}
+	},
+	{
+		"name": "Luffy",
+		"imageFile": "luffy.webp",
+		"physicalTraits": {
+			"durability": 8,
+			"race": 3,
+			"strength": 7
+		},
+		"skillSet": {
+			"captain": 8,
+			"combat": 8,
+			"cooking": 2,
+			"medicine": 1,
+			"mind": 1,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 4,
+			"ships": 1,
+			"sniping": 3,
+			"swords": 3
+		},
+		"haki": {
+			"armament": 8,
+			"observation": 8,
+			"conqueror": 7
+		},
+		"devilFruit": {
+			"mastery": 8,
+			"power": 9
+		}
+	},
+	{
+		"name": "Mihawk",
+		"imageFile": "mihawk.webp",
+		"physicalTraits": {
+			"durability": 6,
+			"race": 3,
+			"strength": 9
+		},
+		"skillSet": {
+			"captain": 3,
+			"combat": 9,
+			"cooking": 6,
+			"medicine": 3,
+			"mind": 5,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 8,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 9
+		},
+		"haki": {
+			"armament": 8,
+			"observation": 9
+		}
+	},
+	{
+		"name": "Nami",
+		"imageFile": "nami.webp",
+		"physicalTraits": {
+			"durability": 3,
+			"race": 3,
+			"strength": 3
+		},
+		"skillSet": {
+			"captain": 3,
+			"combat": 5,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 6,
+			"music": 3,
+			"navigation": 8,
+			"sensei": 4,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 3
+		}
+	},
+	{
+		"name": "Robin",
+		"imageFile": "robin.webp",
+		"physicalTraits": {
+			"durability": 3,
+			"race": 3,
+			"strength": 4
+		},
+		"skillSet": {
+			"captain": 3,
+			"combat": 6,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 7,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 3,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 3
+		},
+		"devilFruit": {
+			"mastery": 7,
+			"power": 6
+		}
+	},
+	{
+		"name": "Sanji",
+		"imageFile": "sanji.webp",
+		"physicalTraits": {
+			"durability": 8,
+			"race": 8,
+			"strength": 6
+		},
+		"skillSet": {
+			"captain": 3,
+			"combat": 7,
+			"cooking": 9,
+			"medicine": 3,
+			"mind": 5,
+			"music": 3,
+			"navigation": 4,
+			"sensei": 3,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 3
+		},
+		"haki": {
+			"armament": 6,
+			"observation": 6
+		}
+	},
+	{
+		"name": "Sengoku",
+		"imageFile": "sengoku.webp",
+		"physicalTraits": {
+			"durability": 8,
+			"race": 3,
+			"strength": 8
+		},
+		"skillSet": {
+			"captain": 8,
+			"combat": 8,
+			"cooking": 4,
+			"medicine": 3,
+			"mind": 6,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 6,
+			"ships": 3,
+			"sniping": 3,
+			"swords": 3
+		},
+		"haki": {
+			"armament": 8,
+			"observation": 7,
+			"conqueror": 6
+		},
+		"devilFruit": {
+			"mastery": 7,
+			"power": 8
+		}
+	},
+	{
+		"name": "Shanks",
+		"imageFile": "shanks.webp",
+		"physicalTraits": {
+			"durability": 6,
+			"race": 3,
+			"strength": 9
+		},
+		"skillSet": {
+			"captain": 8,
+			"combat": 9,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 7,
+			"music": 3,
+			"navigation": 5,
+			"sensei": 6,
+			"ships": 3,
+			"sniping": 5,
+			"swords": 8
+		},
+		"haki": {
+			"armament": 9,
+			"observation": 9,
+			"conqueror": 9
+		}
+	},
+	{
+		"name": "Silvers Rayleigh",
+		"imageFile": "rayleigh.webp",
+		"physicalTraits": {
+			"durability": 7,
+			"race": 3,
+			"strength": 7
+		},
+		"skillSet": {
+			"captain": 5,
+			"combat": 8,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 5,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 9,
+			"ships": 6,
+			"sniping": 3,
+			"swords": 7
+		},
+		"haki": {
+			"armament": 8,
+			"observation": 8,
+			"conqueror": 8
+		}
+	},
+	{
+		"name": "Usopp",
+		"imageFile": "usopp.webp",
+		"physicalTraits": {
+			"durability": 3,
+			"race": 3,
+			"strength": 3
+		},
+		"skillSet": {
+			"captain": 4,
+			"combat": 5,
+			"cooking": 3,
+			"medicine": 3,
+			"mind": 6,
+			"music": 6,
+			"navigation": 5,
+			"sensei": 3,
+			"ships": 5,
+			"sniping": 8,
+			"swords": 3
+		},
+		"haki": {
+			"armament": 4,
+			"observation": 6
+		}
+	},
+	{
+		"name": "Vegapunk",
+		"imageFile": "vegapunk.webp",
+		"physicalTraits": {
+			"durability": 3,
+			"race": 3,
+			"strength": 3
+		},
+		"skillSet": {
+			"captain": 3,
+			"combat": 2,
+			"cooking": 7,
+			"medicine": 9,
+			"mind": 9,
+			"music": 3,
+			"navigation": 3,
+			"sensei": 4,
+			"ships": 9,
+			"sniping": 3,
+			"swords": 3
+		},
+		"devilFruit": {
+			"mastery": 7,
+			"power": 7
+		}
+	},
+	{
+		"name": "Zoro",
+		"imageFile": "zoro.webp",
+		"physicalTraits": {
+			"durability": 7,
+			"race": 3,
+			"strength": 7
+		},
+		"skillSet": {
+			"captain": 3,
+			"combat": 8,
+			"cooking": 2,
+			"medicine": 1,
+			"mind": 2,
+			"music": 3,
+			"navigation": 0,
+			"sensei": 4,
+			"ships": 1,
+			"sniping": 3,
+			"swords": 7
+		},
+		"haki": {
+			"armament": 7,
+			"observation": 7,
+			"conqueror": 6
+		}
+	}
+]
