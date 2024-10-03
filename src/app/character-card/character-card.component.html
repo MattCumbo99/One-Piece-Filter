@@ -6,5 +6,5 @@
             <img mat-card-sm-image border="1" src="{{this.currentCharacter.imageFile}}">
         </mat-card-title-group>
     </mat-card-header>
-    <button mat-button [disabled]="this.locked" (click)="this.lockCharacter()">Lock</button>
+    <button mat-raised-button color-variant="secondary" [disabled]="this.locked" (click)="this.lockCharacter()">{{buttonLabel}}</button>
 </mat-card>

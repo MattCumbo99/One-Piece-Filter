@@ -8,15 +8,22 @@
 <body>
   <h1 class="center-align">Characters</h1>
   <div class="card-container">
-    <app-character-card cardTitle="Devil Fruit" [characters]="fruitUsers" [refreshSignal]="isRefreshing"></app-character-card>
-    <app-character-card cardTitle="Devil Fruit Mastery" [characters]="fruitUsers" [refreshSignal]="this.isRefreshing"></app-character-card>
-    <app-character-card cardTitle="Haki" [characters]="hakiUsers" [refreshSignal]="isRefreshing"></app-character-card>
-    <app-character-card cardTitle="Combat Skill" [characters]="allCharacters" [refreshSignal]="isRefreshing"></app-character-card>
-    <app-character-card cardTitle="Strength" [characters]="allCharacters" [refreshSignal]="isRefreshing"></app-character-card>
-    <app-character-card cardTitle="Mind" [characters]="allCharacters" [refreshSignal]="isRefreshing"></app-character-card>
+    <app-character-card cardTitle="Devil Fruit" [characters]="fruitUsers" [refreshSignal]="isRefreshing"
+    (selectedCharacter)="applySelected(DEVIL_FRUIT, $event)" (isSpinning)="isSpinning($event)"></app-character-card>
+    <app-character-card cardTitle="Devil Fruit Mastery" [characters]="fruitUsers" [refreshSignal]="this.isRefreshing"
+    (selectedCharacter)="applySelected(DEVIL_FRUIT_MASTERY, $event)"></app-character-card>
+    <app-character-card cardTitle="Haki" [characters]="hakiUsers" [refreshSignal]="isRefreshing"
+    (selectedCharacter)="applySelected(HAKI, $event)"></app-character-card>
+    <app-character-card cardTitle="Combat Skills" [characters]="allCharacters" [refreshSignal]="isRefreshing"
+    (selectedCharacter)="applySelected(COMBAT, $event)"></app-character-card>
+    <app-character-card cardTitle="Strength" [characters]="allCharacters" [refreshSignal]="isRefreshing"
+    (selectedCharacter)="applySelected(STRENGTH, $event)"></app-character-card>
+    <app-character-card cardTitle="Intelligence" [characters]="allCharacters" [refreshSignal]="isRefreshing"
+    (selectedCharacter)="applySelected(MIND, $event)"></app-character-card>
   </div>
-  <div class="center-align">
-    <button mat-raised-button color="primary" (click)="refresh()">Refresh</button>
+  <div class="center-align" *ngIf="overallRank > 0">
+    <h1>Rank:</h1>
+    <h2>{{rankLabel}}</h2>
   </div>
 </body>
 </html>

@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges, ViewChild } from '@angular/core';
+import { Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges } from '@angular/core';
 import { CharacterData } from 'src/components/character-data';
 
 @Component({
@@ -23,35 +23,44 @@ export class CharacterCardComponent implements OnInit, OnChanges {
   @Input() refreshSignal: boolean = false;
 
   @Output() selectedCharacter: EventEmitter<CharacterData> = new EventEmitter();
-  @Output() isLocked: EventEmitter<boolean> = new EventEmitter();
+  @Output() isSpinning: EventEmitter<boolean> = new EventEmitter();
 
   currentCharacter: CharacterData = this.characters.at(0)!;
   locked = false;
+  isInitialized = false;
+
+  buttonLabel = "Select";
 
   ngOnInit(): void {
     this.currentCharacter = this.characters.at(Math.random() * this.characters.length)!;
+    this.isInitialized = true;
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    if (changes['refreshSignal'] && !this.locked) {
+    if (this.isInitialized && changes['refreshSignal'] && !this.locked) {
       this.spin();
     }
   }
 
   lockCharacter() {
     this.locked = true;
-    this.isLocked.emit(true);
+    this.buttonLabel = "";
+    this.selectedCharacter.emit(this.currentCharacter);
   }
 
   private async spin() {
     let timer = 40;
+    this.locked = true;
+    this.isSpinning.emit(true);
+
     while (timer > 0) {
       this.currentCharacter = this.getRandom(this.currentCharacter.name);
       await this.delay(40);
       timer--;
     }
 
-    this.selectedCharacter.emit(this.currentCharacter);
+    this.isSpinning.emit(false);
+    this.locked = false;
   }
 
   private getRandom(exclude: string = "") {
